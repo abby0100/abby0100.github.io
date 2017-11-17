@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>XY Hugo Site</title>
+  <title>003Pytesseract &middot; XY Hugo Site</title>
 
   
   <link rel="stylesheet" href="http://abby0100.github.io/css/print.css" media="print">
@@ -22,7 +22,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="http://abby0100.github.io/index.xml" rel="alternate" type="application/rss+xml" title="XY Hugo Site" />
+  <link href="" rel="alternate" type="application/rss+xml" title="XY Hugo Site" />
 
   
   <script src="http://abby0100.github.io/js/highlight.js"></script>
@@ -51,30 +51,37 @@
 </div>
 
     <div class="content container">
-    <div class="posts">
-<div class="post">
-  <h1 class="post-title">
-    <a href="http://abby0100.github.io/post/003pytesseract/">003Pytesseract</a>
-  </h1>
+    <div class="post">
+  <h1>003Pytesseract</h1>
   <span class="post-date">Fri, Nov 17, 2017</span>
-  Pytesseract env set up  1. Python 2.7 installation on Windows8.1 x64. 2. PIL (pillow) for Python 2.7 installation. Use PIL only on x86, Use pillow instead on x64. Download the pillow and then:
-&ldquo;pip install YOUR_PATH_TO_PILLOW/Pillow-xxx-cp27-none-win_amd64.whl&rdquo;. 
-PS: If you use pillow, remember to replace &ldquo;import Image/ImageEnhance&rdquo; with &ldquo;from PIL import Image/ImageEnhance&rdquo;.
-3. Pytesser module installation. PS: Download the Pytesser package, and change the value &ldquo;tesseract_exe_name&rdquo; from &ldquo;tesseract&rdquo; to &ldquo;/tesseract&rdquo;.
   
-  <div class="read-more-link">
-    <a href="/post/003pytesseract/">Read More…</a>
-  </div>
-  
-</div><div class="post">
-  <h1 class="post-title">
-    <a href="http://abby0100.github.io/post/first/">First</a>
-  </h1>
-  <span class="post-date">Thu, Nov 16, 2017</span>
-  Powered by Hugo: http://newoxygen.github.io/post/hugo%E5%BF%AB%E9%80%9F%E5%BB%BA%E7%AB%99/
-  
+
+<h2 id="pytesseract-env-set-up-https-www-cnblogs-com-lcosima-p-7138091-html-br"><a href="https://www.cnblogs.com/lcosima/p/7138091.html">Pytesseract env set up</a> </br></h2>
+
+<h3 id="1-python-2-7-installation-on-windows8-1-x64">1. Python 2.7 installation on Windows8.1 x64.</h3>
+
+<h3 id="2-pil-pillow-for-python-2-7-installation">2. PIL (pillow) for Python 2.7 installation.</h3>
+
+<p>Use PIL only on x86, Use pillow instead on x64. Download the pillow and then:<br />
+&ldquo;pip install YOUR_PATH_TO_PILLOW/Pillow-xxx-cp27-none-win_amd64.whl&rdquo;. </br></p>
+
+<p>PS: If you use pillow, remember to replace &ldquo;import Image/ImageEnhance&rdquo; with &ldquo;from PIL import Image/ImageEnhance&rdquo;.</p>
+
+<h3 id="3-pytesser-module-installation">3. Pytesser module installation.</h3>
+
+<p>PS: Download the Pytesser package, and change the value &ldquo;tesseract_exe_name&rdquo; from &ldquo;tesseract&rdquo; to &ldquo;<Your_Tesseract_exe_Path>/tesseract&rdquo;.</p>
+
+<h3 id="4-tesseract-ocr-installation">4. Tesseract-ocr installation.</h3>
+
+<p>&ldquo;pip install tesseract-ocr&rdquo;.</p>
+
+<h3 id="note-pytesser-will-call-tesseract-in-py-script-and-then-execute-tesseract-exe-file-which-will-need-the-tesseract-ocr-environment">Note: Pytesser will call tesseract in .py script, and then execute tesseract.exe file, which will need the tesseract-ocr environment.</h3>
+
+<p>Please install any dependance library when prompted, VCForPython27 for example may need if not exist.</p>
+
 </div>
-</div>
+
+
     </div>
 
     
