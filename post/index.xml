@@ -17,10 +17,11 @@
       <pubDate>Fri, 17 Nov 2017 10:00:43 +0800</pubDate>
       
       <guid>http://abby0100.github.io/post/003pytesseract/</guid>
-      <description>Pytesseract env set up  1. Python 2.7 installation on Windows8.1 x64. 2. PIL (pillow) for Python 2.7 installation. Use PIL only on x86, Use pillow instead on x64. Download the pillow and then:
+      <description>Windows环境下Pytessert的搭建  1. Python 2.7 installation on Windows8.1 x64. 2. PIL (pillow) for Python 2.7 installation. Use PIL only on x86, Use pillow instead on x64. Download the pillow and then:
 &amp;ldquo;pip install YOUR_PATH_TO_PILLOW/Pillow-xxx-cp27-none-win_amd64.whl&amp;rdquo;. 
 PS: If you use pillow, remember to replace &amp;ldquo;import Image/ImageEnhance&amp;rdquo; with &amp;ldquo;from PIL import Image/ImageEnhance&amp;rdquo;.
-3. Pytesser module installation. PS: Download the Pytesser package, and change the value &amp;ldquo;tesseract_exe_name&amp;rdquo; from &amp;ldquo;tesseract&amp;rdquo; to &amp;ldquo;/tesseract&amp;rdquo;.</description>
+3. Pytesser module installation. PS: Download the Pytesser package, and change the value &amp;ldquo;tesseract_exe_name&amp;rdquo; from &amp;ldquo;tesseract&amp;rdquo; to &amp;ldquo;/tesseract&amp;rdquo;.
+4. Tesseract-ocr installation.</description>
     </item>
     
     <item>
